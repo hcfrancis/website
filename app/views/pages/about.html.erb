@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <%# FONT AWESOME LINK %>
+    <%# FONT AWESOME LINK %>
 
   <script src="https://kit.fontawesome.com/93f049fe77.js" crossorigin="anonymous"></script>
 
@@ -28,7 +28,6 @@
   <title>Document</title>
 </head>
 <body>
-
 <%# Navbar Section %>
    <section class="navbar-section">
       <nav class="navbar navbar-expand-lg navbar-light bg-dark "style="text-align: center; background-color: #f4f4f4">
@@ -41,7 +40,7 @@
             <ul class="navbar-nav"style="font-family: Poppins, sans-serif; font-weight: 200;">
               <li class="nav-item"><a class="nav-link" style="color: white;" href="#">Home</a></li>
               <%# <li class="nav-item"><a class="nav-link" style="color: white;" href="#">About</a></li> %>
-              <li class="nav-item" style="color: white;"><%= link_to "About", about_path %></li>
+              <li style="color: white;"><%= link_to "About", about_path :style => "color: white;" %></li>
               <li class="nav-item"><a class="nav-link" style="color: white;" href="#">Projects</a></li>
               <li class="nav-item"><a class="nav-link" style="color: white;" href="#">Resume</a></li>
               <li class="nav-item"><a class="nav-link" style="color: white;" href="#">Contact</a></li>
@@ -51,45 +50,6 @@
       </nav>
     </section>
 
-<%# Heading Section %>
-  <section class="Heading Section">
-    <div class="heading-container">
-      <div class="heading-container-info">
-        <h1 class="text-center">Hey, I'm Hannah</h1>
-        <p class="text-center">A creative Frontend Developer based in London. I spend my time building websites.</p>
-      </div>
-    </div>
-  </section>
-
-  <%# Project Section %>
-  <section class="Project-section">
-    <div class="card-container">
-      <div class="card-product">
-        <%= image_tag "halfway-iphone-image.svg" %>
-        <div class="card-product-infos">
-          <h2>Project Name</h2>
-          <p>Project description with <strong>relevant info</strong> only.</p>
-          <a class="read-more-btn" href="#">Read More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<%# Footer Section %>
-
-<section class="Footer-Section">
-  <div class="footer">
-   <div class="footer-copyright">
-      © Hannah Francis 2022
-    </div>
-    <div class="footer-links">
-      <a href="https://github.com/hcfrancis" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/thehanfran"target="_blank"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/hannah-francis-578441174/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-
-  </div>
-</section>
-
+  <h1>About Me</h1>
 </body>
 </html>

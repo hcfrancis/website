@@ -4,9 +4,10 @@
 # end
 
 Rails.application.routes.draw do
-  root "homepage#index"
+  root to: "homepage#index"
 
-  get "/homepage", to: "homepage#index"
-  get "about", to: 'homepage#about'
+  # get "/homepage", to: "homepage#index"
+  get 'about', to: 'pages#about'
+
 
 end
