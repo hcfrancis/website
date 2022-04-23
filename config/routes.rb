@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   root "homepage#index"
 
   get "/homepage", to: "homepage#index"
+  get "about", to: 'homepage#about'
+
 end
