@@ -1,0 +1,30 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// Navbar Section
+
+.navbar-brand {
+  margin-left: 35px;
+}
+
+.navbar-nav {
+  padding: 0px 35px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+// Heading Section
+
+.heading-container {
+  margin: 175px 0px;
+}
+.heading-container-info h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-container-info p {
+  font-family: "Inter", sans-serif;
+}
