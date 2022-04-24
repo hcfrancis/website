@@ -32,6 +32,22 @@
   transform: scale(0.9);
 }
 
+// Media Queries
+
+@media (max-width: 575.98px) {
+  .heading-container {
+    margin-top: 75px;
+    padding: 0 40px;
+  }
+  .heading-container-info h1 {
+    font-size: 2rem;
+  }
+
+  .heading-container-info p {
+    font-size: 1rem;
+  }
+}
+
 // Project Section
 
 .card-container {
@@ -99,6 +115,42 @@
   text-decoration: none;
 }
 
+// Media Queries
+
+@media (max-width: 575.98px) {
+  .card-container {
+    margin-top: -275px;
+    margin-bottom: 65px;
+    padding: 0 40px;
+  }
+
+  .card-product {
+    height: 700px;
+    display: inline-block;
+  }
+  .card-product-infos {
+    padding: 0 15px;
+  }
+
+  .card-product img {
+    width: 100%;
+  }
+
+  .card-product h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .card-product p {
+    font-size: 0.87rem;
+    text-align: center;
+  }
+
+  .read-more-btn {
+    margin: 85px;
+  }
+}
+
 .footer {
   background: black;
   display: flex;
@@ -127,4 +179,17 @@
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 200;
+}
+
+// Media Queries
+
+@media (max-width: 575.98px) {
+  .footer-links a {
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
 }
