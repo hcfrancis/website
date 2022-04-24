@@ -13,6 +13,7 @@
   grid-template-columns: 1fr 1fr;
   margin: auto;
   margin: 55px auto;
+  max-width: 885px;
 }
 
 .heading-container-description {
@@ -50,7 +51,43 @@
   display: block;
 }
 
+// Media Quieres
+@media (max-width: 1199.98px) {
+  .section-one-container {
+    // margin: 150px auto;
+    padding: 125px 130px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-one-container {
+    padding: 75px 35px;
+  }
+
+  .heading-container-two {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-container-description h1 {
+    font-size: 2.8rem;
+  }
+
+  .heading-container-description h5 {
+    font-size: 1.4rem;
+  }
+
+  .heading-container-description p {
+    font-size: 1rem;
+    max-width: 425px;
+  }
+
+  .heading-image-container {
+    margin: 55px auto;
+  }
+}
+
 // Section Two
+
 .section-two-container {
   margin: 150px auto;
   padding: 0 250px;
@@ -90,9 +127,32 @@
 }
 
 .coding-girl-image {
-  width: 550px;
+  width: 350px;
   display: block;
 }
+
+@media (max-width: 991.98px) {
+  .section-two-container {
+    padding: 75px 65px;
+    margin: -65px auto;
+  }
+  .section-two-heading-container {
+    grid-template-columns: 1fr;
+    margin: 55px auto;
+    max-width: 885px;
+  }
+
+  .section-two-heading-container-info p {
+    font-size: 1rem;
+    max-width: 425px;
+  }
+}
+
+// @media (max-width: 1199.98px) {
+//   .section-two-container {
+//     padding: 125px 130px;
+//   }
+// }
 
 // Section Three
 
