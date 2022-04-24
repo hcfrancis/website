@@ -3,8 +3,9 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .section-one-container {
-  margin: 150px auto;
-  padding: 0 250px;
+  // margin: 150px auto;
+  padding: 125px 250px;
+  background-color: #fafafa;
 }
 
 .heading-container-two {
@@ -19,11 +20,16 @@
 }
 
 .heading-container-description h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 650;
   letter-spacing: 2px;
   transition: 0.6s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.heading-container-description h5 {
+  margin-bottom: 15px;
 }
 
 .heading-container-description p {
@@ -59,12 +65,13 @@
 }
 
 .section-two-heading-container-info h1 {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 650;
   letter-spacing: 2px;
   transition: 0.6s ease-in-out;
   display: block;
+  margin-bottom: 20px;
 }
 
 .section-two-heading-container-info p {
@@ -74,15 +81,58 @@
   max-width: 555px;
   text-align: left;
   line-height: 1.8;
+  margin-bottom: 15px;
   display: block;
 }
 
-.section-two-heading-container {
-  margin: 0 auto;
-  display: block;
+.section-two-image-container {
+  margin: auto;
 }
 
 .coding-girl-image {
   width: 550px;
   display: block;
+}
+
+// Section Three
+
+.section-three-container {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 50px;
+  padding-bottom: 350px;
+  background-color: #fafafa;
+}
+
+.section-three-heading-container-info h1 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  letter-spacing: 2px;
+  transition: 0.6s ease-in-out;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.section-three-heading-container-info p {
+  color: #737373;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  max-width: 555px;
+  line-height: 1.8;
+  margin: 0 auto;
+}
+
+// Card Styling
+
+.cards-container {
+  margin-top: 75px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
 }
