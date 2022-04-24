@@ -50,19 +50,62 @@
       </nav>
     </section>
 
-    Section One
+    <%# Section One %>
 
     <section class="Section-One">
     <div class="section-one-container">
-      <div class="heading-container">
-        <h1>I'm Hannah</h1>
-
+      <div class="heading-container-two">
+        <div class="heading-container-description">
+          <h1>I'm Hannah</h1>
+          <h5>Sub Heading</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien et sodales ultricies turpis in. Aliquam molestie pulvinar vitae non elementum at.</p>
+        </div>
+          <div class="heading-image-container">
+            <%= image_tag 'selfie.svg', :class => "selfie-image"%>
+          </div>
       </div>
     </div>
     </section>
 
+    <%# Section Two %>
 
+    <section class="Section-Two">
+      <div class="section-two-container">
+        <div class="section-two-heading-container">
+          <div class="section-two-heading-container-info">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien et sodales ultricies turpis in. Aliquam molestie pulvinar vitae non elementum at.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien et sodales ultricies turpis in. Aliquam molestie pulvinar vitae non elementum at.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien et sodales ultricies turpis in. Aliquam molestie pulvinar vitae non elementum at.</p>
+         </div>
+            <div class="section-two-image-container">
+              <%= image_tag 'coding-girl.svg', :class => "coding-girl-image"%>
+            </div>
+        </div>
+      </div>
+    </section>
 
-  <h1>About Me</h1>
+<%# Section Three %>
+
+<section class="Section Three">
+  <div class="section-three-container">
+    <div class="section-three-heading-container">
+      <div class="section-three-heading-container-info text-center">
+        <h1>Side Projects</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien et sodales ultricies turpis in. Aliquam molestie pulvinar vitae non elementum at.</p>
+      </div>
+    <div class="cards-container">
+      <div class="card" style="width: 20rem;">
+        <%= image_tag 'image.jpg'%>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
 </body>
 </html>
