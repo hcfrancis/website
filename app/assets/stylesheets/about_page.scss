@@ -1,3 +1,88 @@
 // Place all the styles related to the about_page controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.section-one-container {
+  margin: 150px auto;
+  padding: 0 250px;
+}
+
+.heading-container-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  margin: 55px auto;
+}
+
+.heading-container-description {
+  margin: auto;
+}
+
+.heading-container-description h1 {
+  font-size: 2.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  letter-spacing: 2px;
+  transition: 0.6s ease-in-out;
+}
+
+.heading-container-description p {
+  color: #737373;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  max-width: 555px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.selfie-image {
+  width: 270px;
+}
+
+.heading-image-container {
+  margin: auto;
+  display: block;
+}
+
+// Section Two
+.section-two-container {
+  margin: 150px auto;
+  padding: 0 250px;
+  display: block;
+}
+
+.section-two-heading-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  margin: 55px auto;
+}
+
+.section-two-heading-container-info h1 {
+  font-size: 2.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  letter-spacing: 2px;
+  transition: 0.6s ease-in-out;
+  display: block;
+}
+
+.section-two-heading-container-info p {
+  color: #737373;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  max-width: 555px;
+  text-align: left;
+  line-height: 1.8;
+  display: block;
+}
+
+.section-two-heading-container {
+  margin: 0 auto;
+  display: block;
+}
+
+.coding-girl-image {
+  width: 550px;
+  display: block;
+}
