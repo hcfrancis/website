@@ -72,7 +72,7 @@
 }
 
 .card-product h2 {
-  text-align: center;
+  text-align: left;
   font-size: 1.9rem;
   font-weight: bold;
   margin: 0;
@@ -103,7 +103,6 @@
   text-decoration: none;
   padding: 15px;
   border-radius: 5px;
-  margin: 226px;
   transition: 0.3s ease-in-out;
   // font-family: "Inter", sans-serif;
   // font-weight: light;
@@ -125,7 +124,7 @@
   }
 
   .card-product {
-    height: 700px;
+    height: 735px;
     display: inline-block;
   }
   .card-product-infos {
@@ -136,6 +135,10 @@
     width: 100%;
   }
 
+  .card-product-infos {
+    padding: 0 50px;
+  }
+
   .card-product h2 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -143,11 +146,9 @@
 
   .card-product p {
     font-size: 0.87rem;
-    text-align: center;
   }
-
   .read-more-btn {
-    margin: 85px;
+    padding: 15px 65px;
   }
 }
 
