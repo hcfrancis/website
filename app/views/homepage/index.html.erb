@@ -35,7 +35,7 @@
         <div class="container-fluid">
         <a class="navbar-brand" style="color: white; font-family: Inter, sans-serif; font-weight: 500">Hannah Francis.</a>
          <%# <%=link_to "Hannah Francis.", homepage_path, :class => "navbar-brand"%> %>
-          <button class="navbar-toggler bg-light"type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-dark"type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse"style="justify-content: end"id="navbarNav">
@@ -65,7 +65,9 @@
   <section class="Project-section">
     <div class="card-container">
       <div class="card-product">
-        <%= image_tag "halfway-iphone-image.svg" %>
+        <div class="card-image-div">
+          <%= image_tag "halfway-iphone-image.svg" %>
+        </div>
         <div class="card-product-infos">
           <h2>Halfway App</h2>
           <p>An app that returns the halfway meeting point between two addresses and lists the different venue options depending on which filters the user has chosen such as Coffee, Drinks etc.</p>
