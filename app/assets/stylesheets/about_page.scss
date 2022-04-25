@@ -4,7 +4,7 @@
 
 .section-one-container {
   // margin: 150px auto;
-  padding: 125px 250px;
+  padding: 85px 250px;
   background-color: #fafafa;
 }
 
@@ -54,14 +54,16 @@
 // Media Quieres
 @media (max-width: 1199.98px) {
   .section-one-container {
-    // margin: 150px auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 125px 130px;
   }
 }
 
 @media (max-width: 991.98px) {
   .section-one-container {
-    padding: 75px 35px;
+    padding: 25px 35px;
   }
 
   .heading-container-two {
@@ -82,17 +84,14 @@
   }
 
   .heading-image-container {
-    margin: 55px auto;
+    margin: 25px auto;
   }
 }
 
 // Section Two
 
 .section-two-container {
-  // margin: 150px auto;
-  // padding: 0 250px;
-  // display: block;
-  padding: 125px 250px;
+  padding: 85px 250px;
 }
 
 .section-two-heading-container {
@@ -137,7 +136,7 @@
 @media (max-width: 1199.98px) {
   .section-two-container {
     // margin: 150px auto;
-    padding: 125px 130px;
+    padding: 40px 130px;
   }
 }
 
@@ -176,10 +175,7 @@
 // Section Three
 
 .section-three-container {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding: 65px 250px;
   background-color: #fafafa;
 }
 
