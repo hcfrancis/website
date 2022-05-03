@@ -325,14 +325,12 @@ a:hover {
     padding: 0 20px;
   }
 
-  .competitor-app-image-container img {
-    width: 75px;
+  .competitor-app-info img {
+    width: 700px;
   }
 
-  .competitor-app-info {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
+  .competitor-app-image-container img {
+    width: 75px;
   }
 
   .competitor-app-info h4 {
@@ -685,7 +683,7 @@ a:hover {
 .fifth-section-wireframe-container img {
   margin: 0 auto;
   display: block;
-  width: 750px;
+  width: 500px;
 }
 
 @media (max-width: 991.98px) {
@@ -774,7 +772,7 @@ a:hover {
 
 .final-design-section-container {
   background-color: #e7e7f6;
-  margin: 25px auto;
+  margin: 0px auto;
   padding: 45px;
   display: block;
 }
