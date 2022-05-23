@@ -66,52 +66,35 @@
   <section class="Project-section">
     <div class="card-container">
 
-<%# Project One %>
-
+<%# Project One Card %>
       <div class="card-product">
         <div class="card-image-div">
-          <%= image_tag "halfway-iphone-image.svg" %>
+          <%= image_tag "halfway-iphone-image.svg", :class => "card-image" %>
         </div>
         <div class="card-product-infos">
-
-          <h2>Halfway</h2>
-          <p>A web app that returns the halfway meeting point between two addresses and lists the different venue options depending on which filters the user has chosen such as Coffee, Drinks etc.</p>
+          <h1>Halfway</h1>
+          <p>
+            A web app that returns the halfway meeting point between two addresses and lists the different venue options depending on which filters the user has chosen such as Coffee, Drinks etc.
+          </p>
           <%=link_to "Read More", about_path, :class => "read-more-btn"%>
-=======
-          <h2>Halfway App</h2>
-          <p>An app that returns the halfway meeting point between two addresses and lists the different venue options depending on which filters the user has chosen such as Coffee, Drinks etc.</p>
-          <%=link_to "Read More", halfway_path, :class => "read-more-btn"%>
-
-          <%# <a class="read-more-btn" href="#">Read More</a> %>
+          <%# <a href="#" class="black-button">Read More</a> %>
         </div>
       </div>
 
-<%# Project Two %>
-
+      <%# Project Two Card %>
       <div class="card-product">
         <div class="card-image-div">
-          <%= image_tag "coach-guru.png" %>
+          <%= image_tag "coach-guru.png", :class => "card-image"%>
         </div>
         <div class="card-product-infos">
-          <h2>Coach Guru</h2>
-          <p>An app that returns the halfway meeting point between two addresses and lists the different venue options depending on which filters the user has chosen such as Coffee, Drinks etc.</p>
-          <%=link_to "Read More", about_path, :class => "read-more-btn"%>
-          <%# <a class="read-more-btn" href="#">Read More</a> %>
-        </div>
-      </div>
-
-
-<%# Project Three %>
-
-      <div class="card-product">
-        <div class="card-image-div">
-          <%= image_tag "halfway-iphone-image.svg" %>
-        </div>
-        <div class="card-product-infos">
-          <h2>Halfway App</h2>
-          <p>An app that returns the halfway meeting point between two addresses and lists the different venue options depending on which filters the user has chosen such as Coffee, Drinks etc.</p>
-          <%=link_to "Read More", about_path, :class => "read-more-btn"%>
-          <%# <a class="read-more-btn" href="#">Read More</a> %>
+          <h1>Coach Guru </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
+            odio, atque eum eveniet repellat molestias corporis temporibus
+            pariatur voluptate.
+          </p>
+          <%=link_to "Read More", coach_guru_path, :class => "read-more-btn"%>
+          <%# <a href="#" class="black-button">Read More</a> %>
         </div>
       </div>
 
