@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <%# FONT AWESOME LINK %>
+
+  <script src="https://kit.fontawesome.com/93f049fe77.js" crossorigin="anonymous"></script>
+
+  <%# BOOTSTRAP CSS & JS LINK %>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+ <%# FONTS %>
+
+  <%# Poppins Google Font %>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+
+  <%# Inter Google Font %>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  </style>
+  <title>Document</title>
+</head>
+  <body>
+
+<%# Navbar Section %>
+   <section class="navbar-section">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark "style="text-align: center; background-color: #f4f4f4">
+        <div class="container-fluid">
+        <a class="navbar-brand" style="color: white; font-family: Inter, sans-serif; font-weight: 500">Hannah Francis.</a>
+         <%# <%=link_to "Hannah Francis.", homepage_path, :class => "navbar-brand"%> %>
+          <button class="navbar-toggler bg-dark"type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"style="justify-content: end"id="navbarNav">
+            <ul class="navbar-nav"style="font-family: Poppins, sans-serif; font-weight: 200;">
+              <%=link_to "Home", homepage_path, :class => "nav-item"%>
+              <%=link_to "Projects", projects_path, :class => "nav-item"%>
+              <%=link_to "Resume", about_path, :class => "nav-item"%>
+              <%=link_to "About", about_path, :class => "nav-item"%>
+              <%=link_to "Contact", contact_path, :class => "nav-item"%>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Halfway Project Section -->
+
+    <!-- First Section -->
+
+    <section class="First Section">
+      <div class="heading-div">
+        <h1>Halfway Case Study</h1>
+        <div class="menu">
+          <ul>
+            <li><a href="#overview-section" jump link>Overview</a></li>
+            <li><a href="#wireframe-section" jump link>Wireframe</a></li>
+            <li><a href="#final-flow-section" jump link>Final Flow</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner One -->
+
+    <div class="banner-image-container">
+      <%= image_tag "hw-bn-1.svg", :class => "hw-image-one" %>
+    </div>
+
+    <!-- Second Section -->
+
+    <section class="Second Section" id="overview-section">
+      <div class="second-section-container">
+        <div class="second-section-container-info">
+          <h2>The Project Overview</h2>
+          <div class="info-one">
+            <h4>Problem</h4>
+            <p>
+              In large cities friends, who live far from one another often
+              struggle to meet up in an area that is a convenient and fair
+              distance for both parties to get to. This issue can often make it
+              difficult to maintain relationships and meet regularly.
+            </p>
+          </div>
+          <div class="info-two">
+            <h4>Solution</h4>
+            <p>
+              An app that returns the halfway meeting point between two
+              addresses and lists the different venue options depending on which
+              filters the user has chosen such as Coffee, Drinks etc.
+            </p>
+          </div>
+        </div>
+        <div class="second-section-container-image">
+          <%= image_tag "hw1.svg" %>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Research Section -->
+
+    <section class="Research-Section">
+      <div class="research-section-container">
+        <div class="research-section-container-info">
+          <h1>Research - Competitive Analysis</h1>
+          <p>
+            After my analysis of the four most popular halfway point web and
+            mobile applications I found that all were able to accurately return
+            the midpoint of two addresses and list venues from different
+            categories within the area.
+          </p>
+          <div class="competitor-app-container">
+            <%# <div class="competitor-app-image-container">
+            </div> %>
+            <div class="competitor-app-info">
+              <%= image_tag "hw2.svg" %>
+            </div>
+          </div>
+          <p>
+            However from a design standpoint I found that a majority of the apps
+            lacked a sense of identity/brand due to its lack of experimentation
+            and inconsistency with color and typography. Because of this it gave
+            the website/app an outdated feel.
+          </p>
+          <p>
+            These four apps lacked any ability to bookmark or add a chosen venue
+            to a list. In order to keep a record of a particular venue you would
+            have to manually add it perpaphs to a notes app in your phone.
+          </p>
+        </div>
+        <div class="research-questions-container">
+          <h1>Research Questions</h1>
+          <p>
+            Where did you last meet up with your friend and what did you do?
+          </p>
+          <p>
+            Was the venue you met up in an equal distance from where you both
+            live?
+          </p>
+          <p>How did you both decide which location to meet up at?</p>
+          <p>
+            How did you find the venue, did you use an app or any form of social
+            media?
+          </p>
+          <p>Do you store venues you have previously visited in an app?</p>
+          <p>
+            Do you visit venues that your friends have made social posts about?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Story Section -->
+
+    <section class="User Story">
+      <div class="user-story-section-container">
+        <h1>User Persona</h1>
+        <div class="user-story-container">
+          <div class="user-story-section-info">
+            <div class="info-one">
+              <h4>User Story</h4>
+              <p>
+                My name is Anna, I’m 20 years old and currently studying
+                Psychology at the University of East London. I’m originally from
+                Esher, however I chose to live on campus as the commute from my
+                family home to university is far too long. Many of my friends
+                from college/secondary school attend university in London but we
+                all live a significant distance away from one another and
+                struggle to find a convenient place to meet up that is easy to
+                commute to.
+              </p>
+            </div>
+            <div class="info-two">
+              <h4>Goals</h4>
+              <ul>
+                <li>Maintain a healthy study and personal life balance</li>
+                <li>Achieve high marks in all assignments for the year</li>
+                <li>Explore more places in London</li>
+              </ul>
+            </div>
+            <div class="info-three">
+              <h4>Pain Points</h4>
+              <ul>
+                <li>Struggles to choose a place to meet friends at</li>
+                <li>
+                  Isn’t able to find places that is a convenient commute from
+                  campus
+                </li>
+                <li>Spends more time studying than hanging out with friends</li>
+              </ul>
+            </div>
+          </div>
+          <div class="user-story-section-image">
+              <%= image_tag "hw3.svg" %>
+            <h4>Anna, 20 years old, Psychology Student</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fourth Section -->
+
+    <section class="Fourth-Section">
+      <div class="fourth-section-container">
+        <div class="fourth-section-container-info">
+          <h1>User Journey</h1>
+        </div>
+        <div class="fourth-section-container-image">
+          <%= image_tag "hw4.svg" %>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section -->
+
+    <section class="Fifth-Section" id="wireframe-section">
+      <div class="fifth-section-container">
+        <div class="fifth-section-container-info">
+          <h1>Low Fidelity Wireframe</h1>
+        </div>
+        <div class="fifth-section-wireframe-container">
+          <%= image_tag "hw5.svg" %>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seventh Section -->
+
+    <section class="Seventh-Section" id="final-flow-section">
+      <div class="seventh-section-container">
+        <div class="seventh-section-heading-container">
+          <h1>Improvements In My Design</h1>
+        </div>
+        <div class="seventh-section-container-info">
+          <h4>Modification of Input Fields and Button</h4>
+          <p>
+            Based on feedback from my teachers the address input card appeared
+            like a button as opposed to an input field and the button didn’t
+            appear to have much vibrancy and was too big.
+          </p>
+          <%= image_tag "hw6.svg" %>
+        </div>
+        <div class="seventh-section-container-info">
+          <h4>Modification of Input Fields and Button</h4>
+          <p>
+            Based on feedback from my teachers the address input card appeared
+            like a button as opposed to an input field and the button didn’t
+            appear to have much vibrancy and was too big.
+          </p>
+          <%= image_tag "hw7.svg" %>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-design-section">
+      <div class="final-design-section-container">
+        <h1>Final Design</h1>
+        <div class="figma-section-container">
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQkEDA5eP7tLdEuQ1qAhyG4%2FHalfway-Updated-Design%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+        </div>
+        <!-- Banner Two -->
+        <div class="info-div">
+          <h1>Github Link</h1>
+          <p><a href="">https://github.com/sachimp/halfway.git</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-section" id="footer-section">
+      <div class="footer">
+        <div class="footer-copyright">© Hannah Francis 2022</div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/hannah-francis-578441174/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/hcfrancis"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

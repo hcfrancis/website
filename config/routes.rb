@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get '/about', to: 'pages#about'
   get '/contact', to: 'pages#contact'
   get '/projects', to: 'pages#projects'
+  get '/halfway', to: 'projects_page#halfway'
 end
