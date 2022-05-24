@@ -3,21 +3,18 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .section-one-about-container {
-  // margin: 150px auto;
-  padding: 85px 250px;
-  // background-color: #fafafa;
+  margin: 150px auto;
+  padding: 0px 50px;
 }
-
 .heading-container-two {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: auto;
-  margin: 55px auto;
-  max-width: 885px;
+  display: flex;
+  grid-gap: 0px;
+  max-width: 1055px;
+  margin: 0 auto;
 }
 
 .heading-container-description {
-  margin: auto;
+  max-width: 445px;
 }
 
 .heading-container-description h1 {
@@ -26,7 +23,7 @@
   font-weight: 650;
   letter-spacing: 2px;
   transition: 0.6s ease-in-out;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .heading-container-description h5 {
@@ -44,7 +41,7 @@
 }
 
 .selfie-image {
-  width: 270px;
+  width: 215px;
 }
 
 .heading-image-container {
@@ -53,55 +50,50 @@
 }
 
 // Media Quieres
-@media (max-width: 1199.98px) {
-  .section-one-about-container {
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 125px 130px;
-  }
-}
 
 @media (max-width: 991.98px) {
-  .section-one-about-container {
-    padding: 25px 35px;
-  }
-
   .heading-container-two {
+    display: grid;
     grid-template-columns: 1fr;
   }
 
+  .heading-container-description {
+    margin: auto;
+  }
+
   .heading-container-description h1 {
-    font-size: 2.8rem;
+    margin-bottom: 15px;
+    text-align: center;
   }
 
   .heading-container-description h5 {
-    font-size: 1.4rem;
+    text-align: center;
   }
 
   .heading-container-description p {
-    font-size: 1rem;
-    max-width: 425px;
+    text-align: center;
   }
 
-  .heading-image-container {
-    margin: 25px auto;
+  .selfie-image {
+    width: 300px;
   }
 }
 
 // Section Two
 
 .section-two-container {
-  padding: 85px 250px;
+  padding: 85px 25px;
 }
 
 .section-two-heading-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: auto;
-  margin: 55px auto;
-  max-width: 885px;
+  display: flex;
+  grid-gap: 0px;
+  max-width: 1055px;
+  margin: 0 auto;
 }
+// .section-two-heading-container-info {
+//   max-width: 445px;
+// }
 
 .section-two-heading-container-info h1 {
   font-size: 2.2rem;
@@ -134,44 +126,59 @@
 }
 
 // Media Quieres
-@media (max-width: 1199.98px) {
-  .section-two-container {
-    // margin: 150px auto;
-    padding: 40px 130px;
-  }
-}
 
 @media (max-width: 991.98px) {
   .section-two-container {
-    padding: 0px 0px;
+    padding: 85px 25px;
   }
   .section-two-heading-container {
+    display: grid;
     grid-template-columns: 1fr;
-    max-width: 445px;
   }
 
   .section-two-heading-container-info {
-    margin-bottom: 25px;
-  }
-
-  .section-two-heading-container-info h1 {
-    font-size: 2.8rem;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  .section-two-heading-container-info p {
-    font-size: 1rem;
-    max-width: 315px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-  }
-
-  .heading-image-container {
-    margin: 55px auto;
+    margin: auto;
   }
 }
+
+// @media (max-width: 1199.98px) {
+//   .section-two-container {
+//     margin: 150px auto;
+//     padding: 40px 130px;
+//   }
+// }
+
+// @media (max-width: 991.98px) {
+//   .section-two-container {
+//     padding: 0px 0px;
+//   }
+//   .section-two-heading-container {
+//     grid-template-columns: 1fr;
+//     max-width: 445px;
+//   }
+
+//   .section-two-heading-container-info {
+//     margin-bottom: 25px;
+//   }
+
+//   .section-two-heading-container-info h1 {
+//     font-size: 2.8rem;
+//     margin: 0 auto;
+//     text-align: center;
+//     margin-bottom: 15px;
+//   }
+
+//   .section-two-heading-container-info p {
+//     font-size: 1rem;
+//     max-width: 315px;
+//     margin: 0 auto;
+//     margin-bottom: 15px;
+//   }
+
+//   .heading-image-container {
+//     margin: 55px auto;
+//   }
+// }
 
 // Section Three
 
