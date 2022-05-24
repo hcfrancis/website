@@ -2,10 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.section-one-container {
+.section-one-about-container {
   // margin: 150px auto;
   padding: 85px 250px;
-  background-color: #fafafa;
+  // background-color: #fafafa;
 }
 
 .heading-container-two {
@@ -54,7 +54,7 @@
 
 // Media Quieres
 @media (max-width: 1199.98px) {
-  .section-one-container {
+  .section-one-about-container {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 991.98px) {
-  .section-one-container {
+  .section-one-about-container {
     padding: 25px 35px;
   }
 
@@ -175,106 +175,106 @@
 
 // Section Three
 
-.section-three-container {
-  padding: 65px 250px;
-  background-color: #fafafa;
-}
+// .section-three-container {
+//   padding: 65px 250px;
+//   background-color: #fafafa;
+// }
 
-.section-three-heading-container-info h1 {
-  font-size: 2.5rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 650;
-  letter-spacing: 2px;
-  transition: 0.6s ease-in-out;
-  margin-bottom: 20px;
-  display: block;
-}
+// .section-three-heading-container-info h1 {
+//   font-size: 2.5rem;
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 650;
+//   letter-spacing: 2px;
+//   transition: 0.6s ease-in-out;
+//   margin-bottom: 20px;
+//   display: block;
+// }
 
-.section-three-heading-container-info p {
-  color: #737373;
-  font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  max-width: 567px;
-  line-height: 1.8;
-  margin: 0 auto;
-}
+// .section-three-heading-container-info p {
+//   color: #737373;
+//   font-size: 1rem;
+//   font-family: "Inter", sans-serif;
+//   max-width: 567px;
+//   line-height: 1.8;
+//   margin: 0 auto;
+// }
 
 // Card Styling
 
-.cards-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 35px auto;
-  max-width: 700px;
-}
+// .cards-container {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   margin: 35px auto;
+//   max-width: 700px;
+// }
 
-.card {
-  max-width: 20rem;
-  margin: 0 auto;
-}
+// .card {
+//   max-width: 20rem;
+//   margin: 0 auto;
+// }
 
-.card-title {
-  text-align: center;
-}
+// .card-title {
+//   text-align: center;
+// }
 
-.card-text {
-  text-align: center;
-}
+// .card-text {
+//   text-align: center;
+// }
 
 // Media Quieries
 
-@media (max-width: 767.98px) {
-  .card {
-    max-width: 20rem;
-  }
-  .section-three-container {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    background-color: #fafafa;
-  }
-}
+// @media (max-width: 767.98px) {
+//   .card {
+//     max-width: 20rem;
+//   }
+//   .section-three-container {
+//     padding-left: 200px;
+//     padding-right: 200px;
+//     padding-top: 50px;
+//     padding-bottom: 25px;
+//     background-color: #fafafa;
+//   }
+// }
 
-@media (max-width: 1199.98px) {
-  .card {
-    margin: 0 auto;
-    max-width: 15rem;
-  }
-  .cards-container {
-    margin: 25px auto;
-    max-width: 535px;
-    grid-gap: 10px;
-  }
-}
+// @media (max-width: 1199.98px) {
+//   .card {
+//     margin: 0 auto;
+//     max-width: 15rem;
+//   }
+//   .cards-container {
+//     margin: 25px auto;
+//     max-width: 535px;
+//     grid-gap: 10px;
+//   }
+// }
 
-@media (max-width: 991.98px) {
-  .section-three-heading-container {
-    padding: 0px 0px;
-  }
+// @media (max-width: 991.98px) {
+//   .section-three-heading-container {
+//     padding: 0px 0px;
+//   }
 
-  .section-three-heading-container-info p {
-    max-width: 315px;
-  }
+//   .section-three-heading-container-info p {
+//     max-width: 315px;
+//   }
 
-  .cards-container {
-    grid-template-columns: 1fr;
-    margin: 25px auto;
-    max-width: 535px;
-    grid-gap: 10px;
-  }
+//   .cards-container {
+//     grid-template-columns: 1fr;
+//     margin: 25px auto;
+//     max-width: 535px;
+//     grid-gap: 10px;
+//   }
 
-  .card {
-    margin-bottom: 15px;
-  }
-}
+//   .card {
+//     margin-bottom: 15px;
+//   }
+// }
 
-@media (max-width: 575.98px) {
-  .section-three-container {
-    padding: 5px 0px;
-  }
+// @media (max-width: 575.98px) {
+//   .section-three-container {
+//     padding: 5px 0px;
+//   }
 
-  .section-three-heading-container {
-    margin: 25px 0px;
-  }
-}
+//   .section-three-heading-container {
+//     margin: 25px 0px;
+//   }
+// }
