@@ -32,6 +32,50 @@
   transform: scale(0.9);
 }
 
+// Skills Section
+
+.skill-box {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-image {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #737373;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-title h3 {
+  margin: 0.5rem;
+}
+
+.skills-icon {
+  width: 50px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+}
+
 // Media Queries
 
 @media (max-width: 575.98px) {
