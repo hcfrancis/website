@@ -47,7 +47,17 @@
   margin-bottom: 0.5rem;
 }
 
-.skill-image {
+.skill-title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 35px;
+  height: 4px;
+  border-radius: 0 2px 2px 0;
+}
+
+.skills-icon {
   width: 90px;
   height: 90px;
   position: relative;
