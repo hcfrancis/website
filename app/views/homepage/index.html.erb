@@ -61,9 +61,99 @@
     </div>
   </section>
 
+<%# Skills Section %>
+
+<section class="Skills-section">
+<div class="skills-section-container">
+<div class="inner">
+    <div class="header">
+        <h1>My Skills</h1>
+      </div>
+      <div class="container">
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "html.png", :class => "skills-icon" %>
+            </div>
+            <p>HTML 5</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "css.png", :style=>'width:35px;', :class => "skills-icon" %>
+            </div>
+            <p>CSS</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "rails.png", :class => "skills-icon" %>
+            </div>
+            <p>Ruby On Rails</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "sass.webp", :class => "skills-icon" %>
+            </div>
+            <p>Sass</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "figma.svg", :style=>'width:30px;', :class => "skills-icon" %>
+            </div>
+            <p>Figma</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "xd.png", :class => "skills-icon" %>
+            </div>
+            <p>Adobe XD</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "illustrator.png", :class => "skills-icon" %>
+            </div>
+            <p>Illustrator</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "after-effects.png", :class => "skills-icon" %>
+            </div>
+            <p>After Effects</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <%= image_tag "premiere-pro.png", :class => "skills-icon" %>
+            </div>
+            <p>Premiere Pro</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+
 
   <%# Project Section %>
   <section class="Project-section">
+    <div class="project-header-div">
+      <h1>Recent Projects</h1>
+    </div>
       <div class="card-product">
         <div class="card-image-div">
           <%= image_tag "halfway-iphone-image.svg", :class => "card-image" %>
@@ -81,10 +171,50 @@
           <%# <a href="#" class="black-button">Read More</a> %>
         </div>
       </div>
+
+      <%# Project Two Card %>
+      <div class="card-product">
+        <div class="card-image-div">
+          <%= image_tag "coach-guru.png", :class => "card-image"%>
+        </div>
+        <div class="card-product-infos">
+          <h1>Coach Guru </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
+            odio, atque eum eveniet repellat molestias corporis temporibus
+            pariatur voluptate.
+          </p>
+          <div class="button-div">
+            <a href="https://www.halfway.fun" target="_blank">View Project</a>
+            <a href="https://github.com/hcfrancis/Coach-Guru" target="_blank">View Code</a>
+         </div>
+        </div>
+      </div>
+
+      <%# Project Three Card %>
+
+      <div class="card-product">
+        <div class="card-image-div">
+          <%= image_tag "fitness-club.png", :class => "card-image"%>
+        </div>
+        <div class="card-product-infos">
+          <h1>Fitness Gym</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
+            odio, atque eum eveniet repellat molestias corporis temporibus
+            pariatur voluptate.
+          </p>
+          <div class="button-div">
+            <a href="https://www.halfway.fun" target="_blank">View Project</a>
+            <a href="https://github.com/hcfrancis/Coach-Guru" target="_blank">View Code</a>
+         </div>
+        </div>
+      </div>
+
+
   </section>
 
 <%# Footer Section %>
-
 <section class="Footer-Section">
   <div class="footer">
    <div class="footer-copyright">
@@ -95,9 +225,7 @@
       <a href="https://twitter.com/thehanfran"target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="https://www.linkedin.com/in/hannah-francis-578441174/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
-
   </div>
 </section>
-
 </body>
 </html>
