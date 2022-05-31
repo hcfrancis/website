@@ -4,10 +4,4 @@ class ProjectsPageController < ApplicationController
 
   def coach_guru
   end
-
-  def puregym_newsletter
-
-  end
-
-
 end
