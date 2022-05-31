@@ -2,90 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.section-one-about-container {
-  margin: 150px auto;
-  padding: 0px 50px;
-}
-.heading-container-two {
-  display: flex;
-  grid-gap: 0px;
-  max-width: 1055px;
-  margin: 0 auto;
-}
-
-.heading-container-description {
-  max-width: 445px;
-}
-
-.heading-container-description h1 {
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 650;
-  letter-spacing: 2px;
-  transition: 0.6s ease-in-out;
-  margin-bottom: 15px;
-}
-
-.heading-container-description h5 {
-  margin-bottom: 15px;
-  line-height: 1.5;
-}
-
-.heading-container-description p {
-  color: #737373;
-  font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  max-width: 555px;
-  text-align: left;
-  line-height: 1.8;
-}
-
-.selfie-image {
-  width: 215px;
-}
-
-.heading-image-container {
-  margin: auto;
-  display: block;
-}
-
-// Media Quieres
-
-@media (max-width: 991.98px) {
-  .heading-container-two {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .heading-container-description {
-    margin: auto;
-  }
-
-  .heading-container-description h1 {
-    margin-bottom: 15px;
-    text-align: center;
-  }
-
-  .heading-container-description h5 {
-    text-align: center;
-  }
-
-  .heading-container-description p {
-    text-align: center;
-  }
-
-  .selfie-image {
-    width: 300px;
-  }
-}
-
 // Section Two
 
-.section-two-container {
-  padding: 85px 25px;
+.about-section-container {
+  padding: 125px 25px;
 }
 
-.section-two-heading-container {
+.about-section-heading-container {
   display: flex;
   grid-gap: 0px;
   max-width: 1055px;
@@ -95,7 +18,7 @@
 //   max-width: 445px;
 // }
 
-.section-two-heading-container-info h1 {
+.about-section-heading-container-info h1 {
   font-size: 2.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 650;
@@ -105,7 +28,7 @@
   margin-bottom: 20px;
 }
 
-.section-two-heading-container-info p {
+.about-section-heading-container-info p {
   color: #737373;
   font-size: 1rem;
   font-family: "Inter", sans-serif;
@@ -116,7 +39,7 @@
   display: block;
 }
 
-.section-two-image-container {
+.about-section-image-container {
   margin: auto;
 }
 
@@ -128,15 +51,15 @@
 // Media Quieres
 
 @media (max-width: 991.98px) {
-  .section-two-container {
+  .about-section-container {
     padding: 85px 25px;
   }
-  .section-two-heading-container {
+  .about-section-heading-container {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .section-two-heading-container-info {
+  .about-section-heading-container-info {
     margin: auto;
   }
 }
