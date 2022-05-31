@@ -35,7 +35,7 @@
         <div class="container-fluid">
         <a class="navbar-brand" style="color: white; font-family: Inter, sans-serif; font-weight: 500">Hannah Francis.</a>
          <%# <%=link_to "Hannah Francis.", homepage_path, :class => "navbar-brand"%> %>
-          <button class="navbar-toggler bg-dark"type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-light"type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse"style="justify-content: end"id="navbarNav">
@@ -58,8 +58,8 @@
     <div class="heading-container-two">
       <div class="heading-container-description">
         <h1>Hey I'm Hannah</h1>
-        <h5>A creative UI Designer & Frontend Developer based in London</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien et sodales ultricies turpis in. Aliquam molestie pulvinar vitae non elementum at.</p>
+        <h5>a creative Frontend Developer based in London.</h5>
+        <p>I'm currently focused on producing high-quality HTML Emails. I thrive on problem-solving and acquiring new skills. </p>
       </div>
       <div class="heading-image-container">
         <%= image_tag 'selfie.svg', :class => "selfie-image"%>
@@ -159,9 +159,11 @@
 
   <section class="Project-section">
     <div class="card-container">
+      <div class="header" style="padding:45px 0">
+        <h1>Recent Projects</h1>
+      </div>
 
 <%# Project One Card %>
-
       <div class="card-product">
         <div class="card-image-div">
           <%= image_tag "halfway-iphone-image.svg", :class => "card-image" %>
@@ -174,23 +176,20 @@
           <div class="button-div">
             <a href="https://www.halfway.fun" target="_blank">View Project</a>
             <a href="https://github.com/sachimp/halfway" target="_blank">View Code</a>
+
          </div>
+          <%# <a href="#" class="black-button">Read More</a> %>
         </div>
       </div>
 
       <%# Project Two Card %>
-
       <div class="card-product">
         <div class="card-image-div">
           <%= image_tag "coach-guru.png", :class => "card-image"%>
         </div>
         <div class="card-product-infos">
           <h1>Coach Guru </h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
-            odio, atque eum eveniet repellat molestias corporis temporibus
-            pariatur voluptate.
-          </p>
+          <p>A landing page for a life coaching business.</p>
           <div class="button-div">
             <%=link_to "View Project", coach_guru_path, :target => "_blank", :class => "nav-item"%>
             <a href="https://github.com/hcfrancis/Coach-Guru" target="_blank">View Code</a>
@@ -206,11 +205,7 @@
         </div>
         <div class="card-product-infos">
           <h1>PureGym</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
-            odio, atque eum eveniet repellat molestias corporis temporibus
-            pariatur voluptate.
-          </p>
+          <p>A recreation of a PureGym HTML Email Newsletter.</p>
           <div class="button-div">
             <a href="https://velvety-belekoy-ff0ec5.netlify.app/" target="_blank">View Project</a>
             <a href="https://github.com/hcfrancis/Puregym-Newsletter" target="_blank">View Code</a>
