@@ -149,11 +149,12 @@
 
 
 
-  <%# Project Section %>
+<%# Project Cards %>
+
   <section class="Project-section">
-    <div class="project-header-div">
-      <h1>Recent Projects</h1>
-    </div>
+    <div class="card-container">
+
+<%# Project One Card %>
       <div class="card-product">
         <div class="card-image-div">
           <%= image_tag "halfway-iphone-image.svg", :class => "card-image" %>
@@ -164,7 +165,7 @@
             A web app that returns the halfway meeting point between two addresses and lists the different venue options depending on which filters the user has chosen such as Coffee, Drinks etc.
           </p>
           <div class="button-div">
-            <%=link_to "View Project", about_path, :class => "read-more-btn"%>
+            <a href="https://www.halfway.fun" target="_blank">View Project</a>
             <a href="https://github.com/sachimp/halfway" target="_blank">View Code</a>
 
          </div>
@@ -179,9 +180,13 @@
         </div>
         <div class="card-product-infos">
           <h1>Coach Guru </h1>
-          <p>A landing page for a fictional life coaching service.</p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
+            odio, atque eum eveniet repellat molestias corporis temporibus
+            pariatur voluptate.
+          </p>
           <div class="button-div">
-            <a href="https://www.halfway.fun" target="_blank">View Project</a>
+            <%=link_to "View Project", coach_guru_path, :target => "_blank", :class => "nav-item"%>
             <a href="https://github.com/hcfrancis/Coach-Guru" target="_blank">View Code</a>
          </div>
         </div>
@@ -191,19 +196,22 @@
 
       <div class="card-product">
         <div class="card-image-div">
-          <%= image_tag "fitness-club.png", :class => "card-image"%>
+          <%= image_tag "puregym.jpg", :class => "card-image"%>
         </div>
         <div class="card-product-infos">
-          <h1>Fitness Gym</h1>
-          <p>A promotional HTML Email for a gym named Fitness Club </p>
+          <h1>PureGym</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
+            odio, atque eum eveniet repellat molestias corporis temporibus
+            pariatur voluptate.
+          </p>
           <div class="button-div">
-            <a href="https://www.halfway.fun" target="_blank">View Project</a>
-            <a href="https://github.com/hcfrancis/Coach-Guru" target="_blank">View Code</a>
+            <a href="https://velvety-belekoy-ff0ec5.netlify.app/" target="_blank">View Project</a>
+            <a href="https://github.com/hcfrancis/Puregym-Newsletter" target="_blank">View Code</a>
          </div>
         </div>
       </div>
-
-
+    </div>
   </section>
 
 <%# Footer Section %>
