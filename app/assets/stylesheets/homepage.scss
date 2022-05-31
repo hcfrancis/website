@@ -2,58 +2,91 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-// Heading Section
+// Section One
 
-.heading-container {
-  margin: 80px 0px;
+.section-one-about-container {
+  margin: 150px auto;
+  padding: 0px 50px;
 }
-.heading-container-info h1 {
-  font-size: 3.5rem;
+.heading-container-two {
+  display: flex;
+  grid-gap: 0px;
+  max-width: 1055px;
+  margin: 0 auto;
+}
+
+.heading-container-description {
+  max-width: 445px;
+}
+
+.heading-container-description h1 {
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 650;
   letter-spacing: 2px;
   transition: 0.6s ease-in-out;
+  margin-bottom: 15px;
 }
 
-.heading-container-info h1:hover {
-  transform: scale(0.9);
+.heading-container-description h5 {
+  margin-bottom: 15px;
+  line-height: 1.5;
 }
 
-.heading-container-info p {
+.heading-container-description p {
   color: #737373;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Inter", sans-serif;
-  font-weight: 400;
-  margin: 25px auto;
-  max-width: 685px;
-  transition: 0.5s ease-in-out;
+  max-width: 555px;
+  text-align: left;
+  line-height: 1.8;
 }
 
-.heading-container-info p:hover {
-  transform: scale(0.9);
+.selfie-image {
+  width: 215px;
 }
 
-// Media Queries
+.heading-image-container {
+  margin: auto;
+  display: block;
+}
 
-@media (max-width: 575.98px) {
-  .heading-container {
-    margin-top: 75px;
-    padding: 0 40px;
-  }
-  .heading-container-info h1 {
-    font-size: 2rem;
+// Media Quieres
+
+@media (max-width: 991.98px) {
+  .heading-container-two {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
-  .heading-container-info p {
-    font-size: 1rem;
+  .heading-container-description {
+    margin: auto;
+  }
+
+  .heading-container-description h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .heading-container-description h5 {
+    text-align: center;
+  }
+
+  .heading-container-description p {
+    text-align: center;
+  }
+
+  .selfie-image {
+    width: 300px;
   }
 }
 
 // Skills Section
 
-// .skills-section-container {
-//   background-color: #f7f7f7;
-// }
+.skills-section-container {
+  background-color: #f7f7f7;
+  padding: 20px 0px;
+}
 
 .skills-container {
   background-color: #f2f2f2;

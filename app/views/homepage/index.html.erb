@@ -51,15 +51,23 @@
       </nav>
     </section>
 
-<%# Heading Section %>
-  <section class="Heading Section">
-    <div class="heading-container">
-      <div class="heading-container-info">
-        <h1 class="text-center">Hey, I'm Hannah</h1>
-        <p class="text-center">A creative UI Designer & Frontend Developer based in London. Through the power of design, I aim to create digital products that enhance users lives.</p>
+<%# Section One %>
+
+<section class="Section-One">
+  <div class="section-one-about-container">
+    <div class="heading-container-two">
+      <div class="heading-container-description">
+        <h1>Hey I'm Hannah</h1>
+        <h5>A creative UI Designer & Frontend Developer based in London</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien et sodales ultricies turpis in. Aliquam molestie pulvinar vitae non elementum at.</p>
+      </div>
+      <div class="heading-image-container">
+        <%= image_tag 'selfie.svg', :class => "selfie-image"%>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 <%# Skills Section %>
 
@@ -147,14 +155,13 @@
 </div>
 </section>
 
-
-
 <%# Project Cards %>
 
   <section class="Project-section">
     <div class="card-container">
 
 <%# Project One Card %>
+
       <div class="card-product">
         <div class="card-image-div">
           <%= image_tag "halfway-iphone-image.svg", :class => "card-image" %>
@@ -167,13 +174,12 @@
           <div class="button-div">
             <a href="https://www.halfway.fun" target="_blank">View Project</a>
             <a href="https://github.com/sachimp/halfway" target="_blank">View Code</a>
-
          </div>
-          <%# <a href="#" class="black-button">Read More</a> %>
         </div>
       </div>
 
       <%# Project Two Card %>
+
       <div class="card-product">
         <div class="card-image-div">
           <%= image_tag "coach-guru.png", :class => "card-image"%>
@@ -215,6 +221,7 @@
   </section>
 
 <%# Footer Section %>
+
 <section class="Footer-Section">
   <div class="footer">
    <div class="footer-copyright">
