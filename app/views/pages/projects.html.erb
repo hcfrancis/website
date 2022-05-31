@@ -56,7 +56,7 @@
     <div class="heading-container-b">
       <div class="heading-container-info-b">
         <h1 class="text-center">Projects</h1>
-        <p class="text-center">A creative Frontend Developer based in London. I spend my time building websites.</p>
+        <%# <p class="text-center">A creative Frontend Developer based in London. I spend my time building websites.</p> %>
       </div>
     </div>
   </section>
@@ -98,7 +98,7 @@
             pariatur voluptate.
           </p>
           <div class="button-div">
-            <a href="https://www.halfway.fun" target="_blank">View Project</a>
+            <%=link_to "View Project", coach_guru_path, :target => "_blank", :class => "nav-item"%>
             <a href="https://github.com/hcfrancis/Coach-Guru" target="_blank">View Code</a>
          </div>
         </div>
@@ -108,23 +108,21 @@
 
       <div class="card-product">
         <div class="card-image-div">
-          <%= image_tag "fitness-club.png", :class => "card-image"%>
+          <%= image_tag "puregym.jpg", :class => "card-image"%>
         </div>
         <div class="card-product-infos">
-          <h1>Fitness Gym</h1>
+          <h1>PureGym</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis
             odio, atque eum eveniet repellat molestias corporis temporibus
             pariatur voluptate.
           </p>
           <div class="button-div">
-            <a href="https://www.halfway.fun" target="_blank">View Project</a>
-            <a href="https://github.com/hcfrancis/Coach-Guru" target="_blank">View Code</a>
+            <a href="https://velvety-belekoy-ff0ec5.netlify.app/" target="_blank">View Project</a>
+            <a href="https://github.com/hcfrancis/Puregym-Newsletter" target="_blank">View Code</a>
          </div>
         </div>
       </div>
-
-
     </div>
   </section>
 

@@ -3,8 +3,5 @@ class ProjectsPageController < ApplicationController
   end
 
   def coach_guru
-
   end
-
-
 end
