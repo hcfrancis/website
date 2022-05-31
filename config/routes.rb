@@ -12,5 +12,4 @@ Rails.application.routes.draw do
   get '/projects', to: 'pages#projects'
   get '/halfway', to: 'projects_page#halfway'
   get '/coach_guru', to: 'projects_page#coach_guru'
-  get 'puregym_newsletter' , to: 'projects_page#puregym_newsletter'
 end
